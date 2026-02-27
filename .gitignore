@@ -41,3 +41,4 @@ rps/rps-md/
 .env
 *.env
 credentials.json
+notes.md

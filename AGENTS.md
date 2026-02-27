@@ -17,7 +17,7 @@ asdos-datmin/
 ├── week-01/
 │   ├── README.md                              # Overview week 1
 │   ├── Virtual-Environment.md                 # Materi utama
-│   ├── Slide-Introduction-Data-Mining.pdf     # Slide presentasi (referensi)
+│   ├── Slide-Introduction-Data-Mining.pdf     # Slide presentasi praktikum
 │   ├── slide-content.md                       # Konten slide dalam markdown
 │   └── demo/
 │       ├── demo.py              # Linear Regression demo
@@ -93,7 +93,7 @@ asdos-datmin/
 
 ### Session 2026-02-27 (sesi 2)
 - Scanned RPS PDF (7 pages) → `rps/rps-content.md` — full curriculum Week 1–16
-- Scanned week1.pdf (11 slides) → `week-01/slide-content.md` — asdos lama presentation
+- Scanned week1.pdf (11 slides) → `week-01/slide-content.md` — slide presentasi praktikum
 - Compared pdf-to-img + multimodal vs pdf-to-md: multimodal lebih bersih, pdf-to-md lebih reliable
 - Planned 16-week curriculum based on RPS
 - Created global skill `git-push-github` di `~/.config/opencode/skills/`

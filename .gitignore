@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+*/lib/python*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Cache
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Temp working files (pdf-to-img / pdf-to-md outputs)
+*-images/
+rps/rps-images/
+rps/rps-md/
+
+# Generated plots (re-generate from code)
+# demo_plot.png  # uncomment if you want to exclude
+
+# Secrets & config
+.env
+*.env
+credentials.json

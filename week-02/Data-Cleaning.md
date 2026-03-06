@@ -538,7 +538,7 @@ df["col_binned"] = pd.qcut(df["col"], q=5, labels=False)
 
 5. Kapan sebaiknya kamu menggunakan **capping** dibanding **trimming** untuk menangani outlier? Sebutkan kelebihan dan kekurangan masing-masing.
 
-### Latihan Praktik (Dataset: SPARC)
+### Latihan Praktik
 
 Gunakan dataset `week2.csv` yang tersedia di folder `praktikum/`.
 

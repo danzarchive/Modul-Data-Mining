@@ -538,23 +538,20 @@ df["col_binned"] = pd.qcut(df["col"], q=5, labels=False)
 
 5. Kapan sebaiknya kamu menggunakan **capping** dibanding **trimming** untuk menangani outlier? Sebutkan kelebihan dan kekurangan masing-masing.
 
-### Latihan Praktik (Dataset: Pima Indians Diabetes)
+### Latihan Praktik (Dataset: SPARC)
 
-Gunakan dataset `diabetes.csv` yang tersedia di folder `praktikum/`. Lihat notebook `Data-Cleaning.ipynb` sebagai referensi.
+Gunakan dataset `SPARC_dataset.csv` yang tersedia di folder `praktikum/`.
 
-6. Kolom `Insulin` memiliki 374 nilai 0 (48.7% dari total data). Bandingkan hasil imputasi menggunakan **mean** vs **median** — mana yang lebih tepat untuk kolom ini? Jelaskan alasanmu berdasarkan distribusi data.
+Lakukan cleaning pada **3 kolom** berikut:
 
-7. Terapkan ketiga metode deteksi outlier (IQR, Z-Score, Modified Z-Score) pada kolom `BMI`. Bandingkan jumlah outlier yang terdeteksi oleh masing-masing metode dan jelaskan mengapa hasilnya berbeda.
+- `dp aktual` — format tidak konsisten (`"Rp 21.000.000"` vs `"87800000"` vs `"0"`)
+- `range dp` — label kategori tidak seragam (`"kurang 1 juta"` vs `"krg 1 jt"`, `"3 jt up"` vs `"3 juta up"`)
+- `tgl mohon` — format tanggal campur (`"02-01-2019"` vs `"02012019"`)
 
-8. Lakukan **equal-frequency binning** pada kolom `Age` menjadi 4 bin. Kemudian terapkan smoothing by bin means. Tampilkan distribusi data sebelum dan sesudah smoothing menggunakan histogram.
+**Yang harus dikumpulkan:**
 
-9. Bandingkan dampak **capping** vs **log transformation** pada kolom `Insulin` terhadap statistik deskriptif (mean, std, median, skewness). Metode mana yang lebih sesuai jika data akan digunakan untuk model klasifikasi?
-
-10. Buat pipeline data cleaning lengkap untuk dataset Pima Indians Diabetes:
-    - Identifikasi dan tangani disguised missing values
-    - Deteksi outlier pada minimal 3 kolom
-    - Terapkan handling yang sesuai untuk setiap kolom
-    - Tampilkan tabel perbandingan statistik deskriptif sebelum dan sesudah cleaning
+1. Tampilkan **before** (contoh nilai sebelum cleaning) dan **after** (hasil setelah cleaning) untuk setiap kolom
+2. Jelaskan **langkah cleaning apa saja** yang kalian lakukan dan **mengapa** memilih pendekatan tersebut
 
 ---
 

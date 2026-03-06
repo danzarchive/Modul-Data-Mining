@@ -65,12 +65,27 @@ Evaluasi model untuk klasifikasi dan regresi.
 
 ### Final Project & EAS (Week 15-16)
 
-## Cara Pakai
+## Cara Menjalankan Environment & Run Notebook
 
-1. Clone repo ini
-2. Masuk ke folder week yang diinginkan (contoh: `cd week-01/`)
-3. Ikuti instruksi di `README.md` masing-masing week
-4. Buka notebook (`.ipynb`) atau baca markdown (`.md`)
+### Prasyarat
+
+Pastikan sudah terinstal:
+
+- Python 3.11+ (via [Miniconda](https://docs.anaconda.com/miniconda/) atau [Homebrew](https://brew.sh/))
+- Jupyter Notebook (atau ekstensi Jupyter di VS Code)
+
+Panduan lengkap setup environment ada di [`week-01/`](week-01/).
+
+### Menjalankan Notebook
+
+1. Clone repo ini dan masuk ke folder week yang diinginkan
+2. Buat conda environment dan install dependencies:
+   ```bash
+   conda create -n datmin python=3.12 -y
+   conda activate datmin
+   pip install numpy pandas scikit-learn matplotlib jupyter
+   ```
+3. Buka notebook (`.ipynb`) atau baca materi (`.md`) di folder week masing-masing
 
 ## Referensi Utama
 

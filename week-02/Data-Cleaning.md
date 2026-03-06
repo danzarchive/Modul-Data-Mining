@@ -555,6 +555,8 @@ Selain 3 kolom di atas, kalian juga boleh meng-cleaning kolom lain yang menurut 
 1. Tampilkan **before** (contoh nilai sebelum cleaning) dan **after** (hasil setelah cleaning) untuk setiap kolom
 2. Jelaskan **langkah cleaning apa saja** yang kalian lakukan dan **mengapa** memilih pendekatan tersebut
 
+**Deadline: Kamis, 12 Maret 2026 pukul 07.00 WIB**
+
 ---
 
 ## 11. Referensi

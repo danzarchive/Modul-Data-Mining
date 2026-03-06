@@ -55,3 +55,9 @@ books/
 
 # Materi dosen (copyrighted, not for public repo)
 materi-dosen/
+
+# Project context (local only)
+AGENTS.md
+
+# Notebook praktikum (push manual jika sudah final)
+**/praktikum/*.ipynb

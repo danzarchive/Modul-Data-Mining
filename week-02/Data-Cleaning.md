@@ -540,13 +540,13 @@ df["col_binned"] = pd.qcut(df["col"], q=5, labels=False)
 
 ### Latihan Praktik (Dataset: SPARC)
 
-Gunakan dataset `SPARC_dataset.csv` yang tersedia di folder `praktikum/`.
+Gunakan dataset `week2.csv` yang tersedia di folder `praktikum/`.
 
 Lakukan cleaning pada **3 kolom** berikut:
 
-- `dp aktual` — format tidak konsisten (`"Rp 21.000.000"` vs `"87800000"` vs `"0"`)
-- `range dp` — label kategori tidak seragam (`"kurang 1 juta"` vs `"krg 1 jt"`, `"3 jt up"` vs `"3 juta up"`)
-- `tgl mohon` — format tanggal campur (`"02-01-2019"` vs `"02012019"`)
+- `dp aktual` — format tidak konsisten
+- `range dp` — label kategori tidak seragam
+- `tgl mohon` — format tanggal tidak seragam
 
 **Yang harus dikumpulkan:**
 
